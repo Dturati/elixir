@@ -19,3 +19,12 @@ case :valid do
     :odd -> IO.puts "Emm"
     _-> "Not old"
 end
+
+caso = {:year,32}
+
+case caso do
+    {:value, result} -> IO.puts result
+    {:ok, result} -> IO.puts result
+    {:year,result} -> IO.puts result
+    _ -> IO.puts "End"
+end
