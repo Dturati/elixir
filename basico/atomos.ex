@@ -3,3 +3,8 @@
 IO.puts(:david)
 
 IO.puts(true |> is_atom)
+
+var = fn(value) -> 
+    value
+end
+
